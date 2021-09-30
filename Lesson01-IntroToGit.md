@@ -10,7 +10,7 @@ In the past, you may have been frustrated by not always having the most up-to-da
 
 * Reverting back to a previous state when necessary.
 
-Below are a few useful definitions:
+**Below are a few useful definitions:**
 
 * *Git* is a source control system, available on the command line or through VSCode.
 
@@ -27,6 +27,8 @@ Below are a few useful definitions:
 * To download new commit from GitHub, we run a *pull* command. You should always *pull* before starting to work on code.
 
 * To upload new commits stored locally, we run a *push* command.  You should always *push* after you make a new commit.
+
+## Getting started
 
 While this can get complex, our goal during this curriculum is to get you comfortable with the basic functions of Git. Please follow these steps to get set up:
 
