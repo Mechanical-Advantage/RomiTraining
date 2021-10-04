@@ -2,7 +2,7 @@
 
 *Lesson 03 is an abbreviated version of [this document](https://github.com/czbeatty/FRC-Romi-Programming-Course/blob/main/Lessons/Romi%20Lesson%203%20-%20Methods%2C%20Classes%2C%20and%20Objects.pdf). Please use it for reference if necessary.*
 
-1. Power on the Romi and connect to its WiFi network, then open the robot code reopsitory. Pull and new changes from GitHub.
+1. Power on the Romi and connect to its WiFi network, then open the robot code reopsitory. Pull any new changes from GitHub.
 
 2. Review [this document](https://github.com/Mechanical-Advantage/SummerTraining2020/blob/master/10-MasteringTheLabyrinth/OOIntro.md), which is an introduction to "object-oriented programming." What are some examples of classes or instances in this robot code? Try to find some that we can modify and others that we cannot.
 
@@ -18,8 +18,8 @@
 
 8. In the simulator interface, connect to your controller and drag it to "Joysticks". The yellow squares at the bottom will light when you press a button. Choose a button to turn on the LED, and record the number of the square that lit (#1 is in the upper left).
 
-9. In `RobotContainer.java`, find the line `m_drivetrain.setDefaultCommand(getArcadeDriveCommand())`. Underneath, instantiate a new `JoystickButton` for your selected button and store it in a variable (of type `JoystickButton`).
+9. In `RobotContainer.java`, find the line `m_drivetrain.setDefaultCommand(getArcadeDriveCommand())`. Underneath, instantiate a new `JoystickButton` for your selected button and store it in a variable (of type `JoystickButton`). The constructor should look something like this: `new JoystickButton(m_controller, ???)`
 
-10. Using the methods `button.whenActive(command)` and `button.whenInactive(command)`, make the green LED turn on when the button is pressed. Before you test, you need to find the line which creates a new `OnBoardIO` and set the first port to an output instead of an input.
+10. Using the methods `button.whenActive(command)` and `button.whenInactive(command)`, make the green LED turn on when the button is pressed. Before you test, you also need to find the line which creates a new `OnBoardIO` and set the first port to an output instead of an input.
 
 11. Commit and push any changes you've made.

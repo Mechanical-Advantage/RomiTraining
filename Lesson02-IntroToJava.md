@@ -2,7 +2,7 @@
 
 *Lesson 02 is an abbreviated version of [this document](https://github.com/czbeatty/FRC-Romi-Programming-Course/blob/main/Lessons/Romi%20Lesson%202%20-%20Intro%20to%20Java%20-%20Variables.pdf). Please use it for reference if necessary.*
 
-1. Power on the Romi and connect to its WiFi network, then open the robot code reopsitory. Pull and new changes from GitHub.
+1. Power on the Romi and connect to its WiFi network, then open the robot code reopsitory. Pull any new changes from GitHub.
 
 2. Start the program by pressing F5, and drive the Romi around!
 
