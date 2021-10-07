@@ -6,6 +6,6 @@ This lesson is a review of concepts related to writing methods and understanding
 
 * How to call those methods and use their results.
 
-* How the place where a variable in declared affects where it can be accessed (e.g. local vs global).
+* How the place where a variable is declared affects where it can be accessed (e.g. local vs global).
 
 The PDF of this lesson is available [here](https://github.com/czbeatty/FRC-Romi-Programming-Course/blob/main/Lessons/Romi%20Lesson%204%20-%20Methods%20Deep%20Dive.pdf) if you need a review.
