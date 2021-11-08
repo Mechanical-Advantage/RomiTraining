@@ -18,8 +18,4 @@
 
   * Drive the robot in a "+" shape, in any size of your choosing.
 
-6. Consider `DriveDistance`, `TurnDegrees`, and their inferior cousins `DriveTime` and `TurnTime`. Do you see a way to improve the way the current commands work? Could they be made faster, more accurate, or easier to use?
-
-7. Based on your idea(s), create two new commands for driving and turning autonomously, using the existing commands for reference. Improve! Tune! Test! How much better can you make them? ("Better" is left intentionally ambiguous :wink:).
-
 8. Commit and push any changes you've made.
