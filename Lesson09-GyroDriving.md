@@ -20,6 +20,6 @@
     
     * How could it cause problems?
 
-    * We currently don't have a system like in our team's robot code. Based on your discussion, do you think that should that change?
+    * We currently don't have a system like this in our team's robot code. Based on your discussion, do you think that should that change?
 
 8. Commit and push any changes you've made.
