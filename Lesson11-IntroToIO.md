@@ -40,7 +40,7 @@ Including the IO layer and hardware implementations, our subsystem now looks lik
 
 ![Subsystem diagram with IO and implementations](https://raw.githubusercontent.com/Mechanical-Advantage/FallTraining2021/main/resources/subsystem-3.png)
 
-Wait! What's is "hardware inputs"? This is another detail which is will be necessary for logging. The IO interface is responsible for data flow in two directions:
+Wait! What is "hardware inputs"? This is another detail which is will be necessary for logging. The IO interface is responsible for data flow in two directions:
 
 * **Outputs** to the harware include voltages for motors and PID setpoints for smart motors controllers. The IO interface will define a set of methods like `setOutputVolts` to control the hardware.
 
