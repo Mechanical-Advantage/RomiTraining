@@ -30,7 +30,7 @@ But why? There are a few reasons to separate the hardware from the rest of the s
 
 That's how inheritance works in general, but the IO layer is actually simpler than that. It's makes use an **interface**, which you can think of an "inheritance lite."
 
-**Interfaces** are how a class gets used. These are the public methods that the class presents for other code to call in order to "do stuff". In Java, we can also separate the concept of the "interface" from the code that actually implements it. That is, we can define an interface "clas"” that spells out what methods need to be provided and their parameters, but which does not actually implement anything. (Programmers call this "abstract" or "virtual".)  The "real" class then implements the interface, providing real code that does the work. Different classes can implement the same interface.
+**Interfaces** are how a class gets used. These are the public methods that the class presents for other code to call in order to "do stuff". In Java, we can also separate the concept of the "interface" from the code that actually implements it. That is, we can define an interface "clas'" that spells out what methods need to be provided and their parameters, but which does not actually implement anything. (Programmers call this "abstract" or "virtual".)  The "real" class then implements the interface, providing real code that does the work. Different classes can implement the same interface.
 
 *How could the concept of an interface be applicable to our IO layer?*
 
