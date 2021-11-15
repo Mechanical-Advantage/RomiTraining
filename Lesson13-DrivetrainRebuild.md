@@ -1,4 +1,4 @@
-# Lesson 13: Rebuilding Drivetrain
+# Lesson 13: Rebuilding the Drivetrain
 
 1. Pull any new changes from GitHub.
 
