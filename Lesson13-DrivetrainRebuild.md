@@ -17,10 +17,10 @@
 ```java
 public void arcadeDrive(double xaxisSpeed, double zaxisRotate) {}
 public void resetEncoders() {}
-public double getLeftDistanceInch() {}
-public double getRightDistanceInch() {}
-public double getAverageDistanceInch() {}
-public double getGyroAngleZ() {}
+public double getLeftDistanceInch() { return 0.0; }
+public double getRightDistanceInch() { return 0.0; }
+public double getAverageDistanceInch() { return 0.0; }
+public double getGyroAngleZ() { return 0.0; }
 public void resetGyro() {}
 ```
 
