@@ -18,6 +18,6 @@ https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json
 
     * The code for Strikes' shooter rollers (more complicated): https://github.com/Mechanical-Advantage/RobotCode2020/blob/master/src/main/java/frc/robot/subsystems/ShooterRoller.java
 
-    * The code for Strikes' SparkMAX drivetrain (much more complicated): https://github.com/Mechanical-Advantage/RobotCode2020/blob/master/src/main/java/frc/robot/subsystems/drive/SparkMAXDriveTrain.java
+    * The code for Strikes' drivetrain (much more complicated): https://github.com/Mechanical-Advantage/RobotCode2020/blob/master/src/main/java/frc/robot/subsystems/drive/SparkMAXDriveTrain.java
 
 5. Check that the code builds, then commit and push any changes you've made.
