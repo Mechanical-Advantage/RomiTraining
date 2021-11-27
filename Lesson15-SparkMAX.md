@@ -20,4 +20,16 @@ https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json
 
     * The code for Strikes' drivetrain (much more complicated): https://github.com/Mechanical-Advantage/RobotCode2020/blob/master/src/main/java/frc/robot/subsystems/drive/SparkMAXDriveTrain.java
 
+5. You may notice that we're missing a piece - the gyro! The gyro on Strikes is a [navX](https://www.andymark.com/products/navx-mxp-robotics-navigation-sensor). To install the library, follow the same steps as #3 and paste in the following URL:
+
+```
+https://www.kauailabs.com/dist/frc/2021/navx_frc.json
+```
+
+6. Add support for the navX to your IO implementation. The Java documentation is available [here](https://www.kauailabs.com/public_files/navx-mxp/apidocs/java/com/kauailabs/navx/frc/AHRS.html). Hint: to instantiate the navX for Strikes, the constructor should look like this:
+
+```java
+new AHRS(SPI.Port.kMXP)
+```
+
 5. Check that the code builds, then commit and push any changes you've made.
