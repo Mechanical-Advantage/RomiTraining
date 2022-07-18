@@ -10,20 +10,20 @@
 https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json
 ```
 
-4. Create a new class under the subsystems folder called `DrivetrainIOSparkMAX` which implements `DrivetrainIO`. The API for controlling these motor controllers is extensive, but we only need to use a small piece. This lesson is largely an excercise in puzzling out how to use it. Feel free to use whatever techniques or resources you see fit, but below are a few starting points. *Not every part of these examples is relevant, only take what you need.*
+4. Create a new class under the subsystems folder called `DrivetrainIOSparkMAX` which implements `DrivetrainIO`. The API for controlling these motor controllers is extensive, but we only need to use a small piece. This lesson is largely an excercise in puzzling out how to use it. Feel free to use whatever techniques or resources you see fit, but below are a few starting points. _Not every part of these examples is relevant, only take what you need._
 
-    * Java documentation for the REV library: https://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/package-summary.html
+   - Java documentation for the REV library: https://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/package-summary.html
 
-    * The code for Strikes' hopper: https://github.com/Mechanical-Advantage/RobotCode2020/blob/master/src/main/java/frc/robot/subsystems/Hopper.java
+   - The code for Awakens' intake: https://github.com/Mechanical-Advantage/RobotCode2022/blob/main/src/main/java/frc/robot/subsystems/intake/IntakeIOSparkMAX.java
 
-    * The code for Strikes' shooter rollers (more complicated): https://github.com/Mechanical-Advantage/RobotCode2020/blob/master/src/main/java/frc/robot/subsystems/ShooterRoller.java
+   - The code for Awakens' feeder (more complicated): https://github.com/Mechanical-Advantage/RobotCode2022/blob/main/src/main/java/frc/robot/subsystems/feeder/FeederIOSparkMAX.java
 
-    * The code for Strikes' drivetrain (much more complicated): https://github.com/Mechanical-Advantage/RobotCode2020/blob/master/src/main/java/frc/robot/subsystems/drive/SparkMAXDriveTrain.java
+   - The code for Awakens' drivetrain (much more complicated): https://github.com/Mechanical-Advantage/RobotCode2022/blob/main/src/main/java/frc/robot/subsystems/drive/DriveIOSparkMAX.java
 
 5. You may notice that we're missing a piece - the gyro! The gyro on Strikes is a [navX](https://www.andymark.com/products/navx-mxp-robotics-navigation-sensor). To install the library, follow the same steps as #3 and paste in the following URL:
 
 ```
-https://www.kauailabs.com/dist/frc/2021/navx_frc.json
+https://www.kauailabs.com/dist/frc/2022/navx_frc.json
 ```
 
 6. Add support for the navX to your IO implementation. The Java documentation is available [here](https://www.kauailabs.com/public_files/navx-mxp/apidocs/java/com/kauailabs/navx/frc/AHRS.html). Hint: to instantiate the navX for Strikes, the constructor should look like this:
