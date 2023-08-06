@@ -38,7 +38,7 @@ While this can get complex, our goal during this curriculum is to get you comfor
 
 2. Send us your GitHub username so that we can invite you to the team organization. This is necessary before you can write to any of the team's repositories.
 
-3. Find the "FallTraining2021Code" repository in our organization, then copy the clone URL by clicking on the green "Code" button.
+3. Find the "RomiTrainingCode" repository in our organization, then copy the clone URL by clicking on the green "Code" button.
 
 3. Open VSCode and search the command palette for "Git: Clone", then paste in the URL. Once it completes, open the cloned repository.
 
