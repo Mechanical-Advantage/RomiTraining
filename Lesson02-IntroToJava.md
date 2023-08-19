@@ -16,7 +16,7 @@
 
    ![teleoperated-xbox](https://github.com/Mechanical-Advantage/RomiTraining/assets/11655241/cd7fde65-3f83-4719-8a9f-ec88ad148bae)
 
-9. Drive the Romi around using the XBox!
+9. Drive the Romi around using the XBox controller!
 
 ## Change the code
 
