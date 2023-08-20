@@ -10,7 +10,7 @@
 
 4. Start the program by pressing F5 - the Simulator window will come up.
 
-5. Connect an XBox controller to an USB port on your computer.
+5. Connect an XBox controller to a USB port on your computer.
   
 7. In the Simulator window, click the 'Teleoperated' button in the Robot State section, then drag and drop the XBox controller from the System Joysticks section into the Joysticks section (see image).
 
